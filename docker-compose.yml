@@ -1,0 +1,32 @@
+﻿version: "3.9"
+
+services:
+  postgres:
+    image: postgres:16
+    container_name: FPdb-postgres
+    restart: always
+    environment:
+      POSTGRES_DB: FPdb
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: 123456
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  backend:
+    build:
+      context: .
+      dockerfile: FinalProject.Backend/Dockerfile
+    container_name: FP-backend
+    depends_on:
+      - postgres
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings__DefaultConnection: Host=postgres;Port=5432;Database=FPdb;Username=admin;Password=123456
+    ports:
+      - "5000:8080"
+  
+
+volumes:
+  postgres_data:

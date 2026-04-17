@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="FinalProject.Backend.AppHost/FinalProject.Backend.AppHost.csproj" />
+  <Project Path="FinalProject.Backend.ServiceDefaults/FinalProject.Backend.ServiceDefaults.csproj" />
+  <Project Path="FinalProject.Backend/FinalProject.Backend.csproj" />
+</Solution>

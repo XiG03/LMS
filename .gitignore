@@ -1,0 +1,93 @@
+﻿# ========================
+# .NET Build
+# ========================
+**/bin/
+**/obj/
+*.dll
+*.exe
+*.pdb
+
+# ========================
+# Visual Studio
+# ========================
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ========================
+# VS Code / IDE
+# ========================
+.vscode/
+.idea/
+
+# ========================
+# Environment & Secrets
+# ========================
+.env
+.env.*
+*.env
+*.local
+*.secret
+
+# Ignore local/dev appsettings files
+appsettings.Development.json
+appsettings.Local.json
+
+# Keep production appsettings when needed
+# appsettings.Production.json
+
+# ========================
+# Logs
+# ========================
+logs/
+*.log
+
+# ========================
+# Database
+# ========================
+*.sqlite
+*.db
+
+# ========================
+# Temp files
+# ========================
+tmp/
+temp/
+*.tmp
+*.cache
+
+# ========================
+# Uploads / storage
+# ========================
+storage/
+wwwroot/uploads/
+
+# ========================
+# Node (if frontend exists)
+# ========================
+node_modules/
+
+# ========================
+# Docker
+# ========================
+docker-compose.override.yml
+
+# ========================
+# OS files
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========================
+# Test
+# ========================
+TestResults/
+coverage/
+
+# ========================
+# Misc
+# ========================
+*.nupkg
