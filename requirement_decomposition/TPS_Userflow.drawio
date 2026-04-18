@@ -83,7 +83,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="W4yDaA_nK3XO9Q4ADrgf-37" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Quản lý exam/test" vertex="1">
-          <mxGeometry height="80" width="120" x="-1100" y="1150" as="geometry" />
+          <mxGeometry height="80" width="120" x="-1090" y="1020" as="geometry" />
         </mxCell>
         <mxCell id="W4yDaA_nK3XO9Q4ADrgf-80" edge="1" parent="1" source="W4yDaA_nK3XO9Q4ADrgf-38" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="W4yDaA_nK3XO9Q4ADrgf-70">
           <mxGeometry relative="1" as="geometry" />
@@ -120,7 +120,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="W4yDaA_nK3XO9Q4ADrgf-70" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Liên kết topic và question" vertex="1">
-          <mxGeometry height="80" width="120" x="-1010" y="910" as="geometry" />
+          <mxGeometry height="80" width="120" x="-1000" y="900" as="geometry" />
         </mxCell>
         <mxCell id="W4yDaA_nK3XO9Q4ADrgf-86" edge="1" parent="1" source="W4yDaA_nK3XO9Q4ADrgf-34" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.349;entryY=0.065;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" target="W4yDaA_nK3XO9Q4ADrgf-66">
           <mxGeometry relative="1" as="geometry" />
